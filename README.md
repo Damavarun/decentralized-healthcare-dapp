@@ -76,3 +76,26 @@ This project uses blockchain to solve these problems by:
 
 ## Project Structure
 
+```
+healthcare-dapp/
+├── contracts/
+│ └── Healthcare.sol
+│
+├── migrations/
+│ └── 2_deploy_contracts.js
+│
+├── client/
+│ └── src/
+│ ├── components/
+│ │ ├── Doctor.js
+│ │ └── Patient.js
+│ ├── App.js
+│ ├── contractConfig.js
+│ ├── index.js
+│ └── index.css
+│
+├── truffle-config.js
+└── README.md
+
+```
+
