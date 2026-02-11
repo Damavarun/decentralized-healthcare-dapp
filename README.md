@@ -99,3 +99,99 @@ healthcare-dapp/
 
 ```
 
+---
+
+## Installation & Setup
+
+### Prerequisites
+- Node.js
+- npm
+- MetaMask browser extension
+- Ganache (Local Blockchain)
+- Truffle Framework
+
+---
+
+## Running the Project
+
+### Step 1: Clone the Repository
+- Clone the project from GitHub
+- Navigate into the project folder
+
+### Step 2: Install Dependencies
+- Move to the `client` directory
+- Run `npm install`
+
+### Step 3: Start Ganache
+- Open Ganache
+- Start a local Ethereum workspace
+
+### Step 4: Deploy Smart Contracts
+- Run `truffle compile`
+- Run `truffle migrate --reset`
+
+### Step 5: Configure MetaMask
+- Connect MetaMask to Ganache network
+- Import an account from Ganache
+
+### Step 6: Start Frontend
+- Run `npm start`
+- Open the app in browser at `http://localhost:3000`
+
+---
+
+## Smart Contract Functions
+
+- `registerPatient(name, age, gender)` – Registers a patient
+- `registerDoctor(name, specialization)` – Registers a doctor
+- `authorizeDoctor(doctorAddress)` – Grants doctor access
+- `addRecord(patientAddress, record)` – Adds medical record
+- `viewRecords(patientAddress)` – Views patient records
+- `getPatient(patientAddress)` – Fetch patient details
+
+---
+
+## Security & Access Control
+
+- Data stored immutably on blockchain
+- Only registered doctors can interact
+- Patients control access permissions
+- Unauthorized access is prevented
+- All transactions are recorded transparently
+
+---
+
+## Advantages
+
+- Decentralized architecture
+- No central authority
+- Tamper-proof medical records
+- High security and trust
+- Transparent data access
+
+---
+
+## Limitations
+
+- Gas cost for storing data on-chain
+- Requires MetaMask
+- Not suitable for large file storage
+
+---
+
+## Future Enhancements
+
+- IPFS integration for medical reports
+- Government-based doctor verification
+- Emergency access mechanism
+- Deployment on Ethereum testnet
+- Enhanced UI and user experience
+
+---
+
+## Conclusion
+
+This project demonstrates how blockchain technology can transform healthcare systems by providing secure, decentralized, and transparent medical record management using smart contracts .
+
+
+
